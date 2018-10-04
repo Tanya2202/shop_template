@@ -243,7 +243,28 @@ display: block;
 .widget ul li.more a{
 	color: #358acd;
 }
+.sidebar .carousel{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.sidebar .sidebar-carousel-caption{
+	background: #fff;
+	border-bottom: 1px solid #e1e1e1;
 
+}
+.sidebar .sidebar-carousel-caption div{
+	padding: 20px;
+}
+.sidebar .sidebar-carousel-caption h4{
+margin-bottom: 0;
+font-weight: 700;
+font-size: 14px;
+}
+.sidebar .sidebar-carousel-caption h4{
+margin-bottom: 0;
+font-size: 12px;
+color: #5b5b5b;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -319,6 +340,11 @@ display: block;
 	.main-menu .navbar-inverse .navbar-nav > li > a{
 		font-size: 14px;
 	}
+	.sidebar{
+		padding-bottom: 0;
+		padding-top: 0;
+		border-right: none;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -372,6 +398,11 @@ display: block;
 	}
 }
 
+@media only screen and (max-width : 540px) {
+	.sidebar .col-xs-6{
+width: 100%;
+	}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.menu-carousel .carousel-caption .btn-red{
